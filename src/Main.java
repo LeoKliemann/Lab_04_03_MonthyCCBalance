@@ -12,6 +12,7 @@ public class Main{
         balanceTotal = interestRate * creditCardBalance;
         firstMonth = balanceTotal + creditCardBalance;
         secondMonth = firstMonth + balanceTotal;
+
         System.out.println("Your balance for the first month is: $" + firstMonth + ", and your balance for the second month is, $" + secondMonth);
 
     }
